@@ -1,0 +1,28 @@
+/* success-page arkaplanı tam ekran kırmızı */
+.success-page {
+  background-color: #d32f2f; /* Koyu kırmızı */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  width: 100vw; /* Tüm ekran genişliği */
+  height: 100vh; /* Tüm ekran yüksekliği */
+}
+
+/* Başlık (logo) */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Tebrik mesajı */
+.message {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.5;
+}
